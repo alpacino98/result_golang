@@ -1,5 +1,24 @@
 # Result Golang Exercise
 
+#Go version
+1.17
+
+#Dependencies
+
+"encoding/json"
+"log"
+"net/http"
+"strconv"
+"fmt"
+"log"
+"github.com/gorilla/mux"
+"github.com/PuerkitoBio/goquery"
+
+
+#Getting mux and goquery
+go get github.com/gorilla/mux
+go get github.com/PuerkitoBio/goquery
+
 # Endpoints of API
 
 /api/ (Get Request) => sends back text whic tells the real endpoints to use
