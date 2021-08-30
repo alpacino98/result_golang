@@ -30,3 +30,15 @@ run_server.sh => running server with bash script
 
 
 # DOCKER
+
+#Pull the image from DockerHub
+
+docker pull alphapro98/result-go:0.1
+
+# run the image 
+
+docker run -it -p 8080:8080 alphapro98/result-go:latest
+
+# after running in to image run the run_server.sh bash script
+
+./run_server.sh
